@@ -13,4 +13,9 @@ export const CardsWrapper = styled.div`
 export const CardWrapper = styled.div`
   margin-right: 16px;
   margin-bottom: 16px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-right: 0;
+  }
 `;
